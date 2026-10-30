@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { Logger } from '@zenmanage/sdk';
+import { version as PACKAGE_VERSION } from '../package.json';
 import {
   buildReactNativeConfig,
   createReactNativeClient,
@@ -11,7 +12,12 @@ describe('buildReactNativeConfig', () => {
     const config = buildReactNativeConfig({ environmentToken: 'mob_example' });
 
     expect(config.clientAgent).toBe('zenmanage-react-native');
-    expect(config.sdkVersion).toBe('0.1.0');
+  });
+
+  it('reports the package.json version as the SDK version', () => {
+    const config = buildReactNativeConfig({ environmentToken: 'mob_example' });
+
+    expect(config.sdkVersion).toBe(PACKAGE_VERSION);
   });
 });
 

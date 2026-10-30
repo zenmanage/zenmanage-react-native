@@ -9,8 +9,8 @@ const MOBILE_KEY_PREFIX = 'mob_';
 // Sent as X-ZEN-CLIENT-AGENT so the API can tell this package apart from the
 // underlying @zenmanage/sdk. Must be allow-listed in api's EnsureClientAgentIsValid.
 const CLIENT_AGENT = 'zenmanage-react-native';
-// Keep in sync with package.json "version".
-const SDK_VERSION = '0.1.0';
+// Keep in sync with package.json "version"; tests/create-client.test.ts fails if they drift.
+const SDK_VERSION = '1.0.0';
 
 const noop = (): void => undefined;
 
