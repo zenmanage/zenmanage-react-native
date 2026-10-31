@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.1] - 2026-10-30
+
+### Changed
+
+- Maintenance release with no SDK behavior changes. The npm README now uses the same badges as the other Zenmanage SDKs.
+
 ## [1.0.0] - 2026-10-30
 
 First public release of `@zenmanage/react-native`.

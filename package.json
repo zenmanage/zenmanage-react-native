@@ -1,6 +1,6 @@
 {
   "name": "@zenmanage/react-native",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native hooks and provider for Zenmanage feature flags",
   "keywords": [
     "react-native",
