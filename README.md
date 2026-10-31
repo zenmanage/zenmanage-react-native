@@ -1,8 +1,6 @@
 # Zenmanage React Native SDK
 
-[![npm version](https://badge.fury.io/js/@zenmanage%2Freact-native.svg)](https://www.npmjs.com/package/@zenmanage/react-native)
-[![Build Status](https://github.com/zenmanage/zenmanage-react-native/actions/workflows/ci.yml/badge.svg)](https://github.com/zenmanage/zenmanage-react-native)
-[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
+[![CI](https://github.com/zenmanage/zenmanage-react-native/actions/workflows/ci.yml/badge.svg)](https://github.com/zenmanage/zenmanage-react-native/actions/workflows/ci.yml) [![Version](https://img.shields.io/npm/v/@zenmanage/react-native)](https://www.npmjs.com/package/@zenmanage/react-native) [![License](https://img.shields.io/github/license/zenmanage/zenmanage-react-native)](LICENSE) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/692b1283bf6f4e72afccdf5c805bbd69)](https://app.codacy.com/gh/zenmanage/zenmanage-react-native/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
 
 React Native hooks and provider components for Zenmanage feature flags.
 
