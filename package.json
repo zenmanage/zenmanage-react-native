@@ -58,19 +58,19 @@
     "prepublishOnly": "npm run validate"
   },
   "peerDependencies": {
+    "@zenmanage/sdk": "^3.5.0",
     "react": "^18.2.0 || ^19.0.0",
-    "react-native": ">=0.72.0",
-    "@zenmanage/sdk": "^3.5.0"
+    "react-native": ">=0.72.0"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.28.1",
-    "@zenmanage/sdk": "^3.5.1",
+    "@changesets/cli": "^3.0.3",
     "@testing-library/react": "^16.0.1",
     "@types/node": "^20.11.0",
     "@types/react": "^18.3.3",
     "@typescript-eslint/eslint-plugin": "^6.20.0",
     "@typescript-eslint/parser": "^6.20.0",
     "@vitest/coverage-v8": "^1.6.0",
+    "@zenmanage/sdk": "^3.5.1",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
