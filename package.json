@@ -72,7 +72,7 @@
     "@vitest/coverage-v8": "^1.6.0",
     "@zenmanage/sdk": "^3.5.1",
     "eslint": "^8.57.0",
-    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-react-hooks": "^5.1.0",
     "jsdom": "^24.1.1",
