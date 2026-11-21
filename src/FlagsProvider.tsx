@@ -15,8 +15,7 @@ function getDefaultAppState(): AppStateLike | undefined {
   try {
     // Dynamic require keeps the package test-friendly and avoids hard crashes outside RN runtimes.
     const loader = new Function('return typeof require !== "undefined" ? require : null')() as
-      | ((id: string) => unknown)
-      | null;
+      ((id: string) => unknown) | null;
 
     if (!loader) {
       return undefined;
