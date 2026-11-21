@@ -68,7 +68,7 @@
     "@types/node": "^20.11.0",
     "@types/react": "^18.3.3",
     "@typescript-eslint/eslint-plugin": "^6.20.0",
-    "@typescript-eslint/parser": "^6.20.0",
+    "@typescript-eslint/parser": "^8.73.0",
     "@vitest/coverage-v8": "^1.6.0",
     "@zenmanage/sdk": "^3.5.1",
     "eslint": "^8.57.0",
