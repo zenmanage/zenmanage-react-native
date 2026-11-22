@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 
-- Maintenance release with no SDK behavior changes. Development dependency updates: `@typescript-eslint/eslint-plugin` and `parser` 6 to 8, `eslint-config-prettier` 9 to 10, `prettier`, `@testing-library/react` and `@zenmanage/sdk` (used for tests).
+- Maintenance release with no SDK behavior changes. Development dependency updates: `@typescript-eslint/eslint-plugin` and `parser` 6 to 8, `eslint-config-prettier` 9 to 10, `prettier`, `@testing-library/react` and `@zenmanage/sdk` (used for tests), plus patch updates to the transitive `fast-xml-parser` and `node-forge`.
 
 ## [1.0.1] - 2026-10-30
 
